@@ -1,0 +1,66 @@
+.app {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20pt;
+}
+
+.background {
+  background-color: black;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.interface {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  padding: 20px;
+  align-content: center;
+  border-radius: 10px;
+  box-shadow: white 3px 3px 3px;
+}
+
+.count-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: red;
+  align-content: center;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: black 2px 2px 2px;
+}
+
+.input-container {
+  display: flex;
+}
+
+.input {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: black 2px 2px 2px;
+  flex-grow: 1;
+}
+
+#incrementor {
+  background-color: green;
+  min-width: 30px;
+  text-align: center;
+}
+
+#decrementor {
+  background-color: blue;
+  min-width: 30px;
+  text-align: center;
+}
+
+#reset {
+  background-color: black;
+  color: yellow;
+}
